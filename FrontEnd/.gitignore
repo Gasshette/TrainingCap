@@ -1,4 +1,6 @@
-.tmp/
-coverage/
-dist/
+
 node_modules/
+
+.tmp/
+gulp_tasks/
+cmd.lnk
