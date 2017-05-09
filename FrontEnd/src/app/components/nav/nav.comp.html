@@ -12,17 +12,6 @@
                 <a class="navbar-brand" ui-sref="home" ng-mouseover="nc.changeColor($event)" ng-mouseleave="nc.resetColor($event)"><span class="glyphicon glyphicon-home"></span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse in" aria-expanded="false">
-                <!--<ul class="nav navbar-nav">
-                    <li>
-                        <a ui-sref="profile" ui-sref-active="active" ng-mouseover="mc.changeColor($event)" ng-mouseleave="mc.resetColor($event)">Profile</a>
-                    </li>
-                    <li>
-                        <a ui-sref="score" ui-sref-active="active" ng-mouseover="mc.changeColor($event)" ng-mouseleave="mc.resetColor($event)">Score</a>
-                    </li>
-                    <li>
-                        <a ui-sref="download" ui-sref-active="active" ng-mouseover="mc.changeColor($event)" ng-mouseleave="mc.resetColor($event)">Download the game</a>
-                    </li>
-                </ul>-->
                 <div ng-switch on="nc.logged">
 
                     <!--<ul class="nav navbar-nav navbar-right" ng-switch-when="true">
@@ -37,9 +26,9 @@
                         <li>
                             <a ui-sref="connection" ui-sref-active="active" ng-mouseover="nc.changeColor($event)" ng-mouseleave="nc.resetColor($event)">Sign-in</a>
                         </li>
-                        <li>
+                        <!--li>
                             <a ui-sref="inscription" ui-sref-active="active" ng-mouseover="nc.changeColor($event)" ng-mouseleave="nc.resetColor($event)">Sign-up</a>
-                        </li>
+                        </li-->
                     </ul>
                 </div>
             </div>
