@@ -1,6 +1,5 @@
-
-node_modules/
-
 .tmp/
-gulp_tasks/
-cmd.lnk
+coverage/
+dist/
+node_modules/
+bower_components/

@@ -1,3 +1,40 @@
-body {
-  background-color: lightgrey;
+@import 'app/components/header/header.comp.scss';
+@import 'app/components/nav/nav.comp.scss';
+@import 'app/components/footer/footer.comp.scss';
+
+html{
+    overflow-y: scroll;
+}
+
+body{
+    min-height: 400px;
+}
+
+.body-container{
+    margin-bottom : 100px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+#progressbar{
+    background-color: black;
+    border-radius: 15px; /* (height of inner div) / 2 + padding */
+    text-align : center;
+    padding: 3px;
+    height: 26px;
+}
+
+#progressbar .progress {
+    padding-bottom: 6px;
+}
+
+#progressbar > div {
+    color : white;
+    font-weight:bold;
+    width : 0%;
+   background-color: orange;
+
+   border-radius: 15px;
 }
